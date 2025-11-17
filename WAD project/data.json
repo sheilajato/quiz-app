@@ -1,0 +1,8 @@
+[
+  { "name": "Product A", "category": "Electronics", "sales": 120, "month": "January" },
+  { "name": "Product B", "category": "Clothing", "sales": 80, "month": "January" },
+  { "name": "Product C", "category": "Groceries", "sales": 200, "month": "January" },
+  { "name": "Product A", "category": "Electronics", "sales": 150, "month": "February" },
+  { "name": "Product B", "category": "Clothing", "sales": 90, "month": "February" },
+  { "name": "Product C", "category": "Groceries", "sales": 220, "month": "February" }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Dashboard</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Interactive Dashboard</h1>
+  </header>
+
+  <!-- FILTERS -->
+  <section id="filters">
+    <input type="text" id="search" placeholder="Search...">
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <!-- KPI CARDS -->
+  <section id="kpis">
+    <div class="card">
+      <h3>Total</h3>
+      <p id="totalValue">-</p>
+    </div>
+
+    <div class="card">
+      <h3>Category A</h3>
+      <p id="catAValue">-</p>
+    </div>
+
+    <div class="card">
+      <h3>Category B</h3>
+      <p id="catBValue">-</p>
+    </div>
+  </section>
+
+  <!-- CHARTS -->
+  <section id="charts">
+    <canvas id="barChart"></canvas>
+  </section>
+
+  <!-- TABLE -->
+  <section id="tableSection">
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- data goes here -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
