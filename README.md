@@ -1,2 +1,2 @@
 # quiz-app
-Web application development project
+Web application development class project
